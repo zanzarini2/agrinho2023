@@ -1,3 +1,10 @@
+.cabecalho{
+    background-color: linear-gradient(#0fec2c, #c1f3bf);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+
 .imagem-cabecalho{
     width: 100%;
 }
