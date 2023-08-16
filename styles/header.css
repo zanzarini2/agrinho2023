@@ -1,15 +1,16 @@
-@media screen and (max-width: 1024px){
+.Banner-cabecalho{
+    width: 10%;
+}
 
+
+@media screen and (max-width: 1024px){
     .Banner-cabecalho-a{
         display: none;
-
     }
 
-
-    }
-
-
-
-    .Banner-cabecalho{
+    .imagem-banner {
         width: 10%;
     }
+
+
+}
