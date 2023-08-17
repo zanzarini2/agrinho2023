@@ -9,7 +9,7 @@
     }
 
     .imagem-banner{
-        width: 10%;
+        display: none;
     }
 
     .tema{
