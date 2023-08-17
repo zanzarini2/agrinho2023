@@ -1,14 +1,5 @@
 @import url("styles/header.css");
 
-.cabecalho{
-    background-image: linear-gradient(#0fec2c, #c1f3bf);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-
-}
-
 
 .imagem-banner{
     width: 30%;
@@ -54,4 +45,49 @@ body{
 .rodape{
     background-color: green;
     text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    .cabecalho{
+        background-image: linear-gradient(#a8eeaf, #fefffe);
+    }
+
+    .introducao{
+        display: none;
+    }
+
+    .tema{
+        font-size: 18px;
+        color: blue;
+        
+    }
+
+    .imagem-premiacao{
+        width: 30%;
+        height: 30%;
+    }
+
+    .Categorias{
+        font-size: 14px;
+    }
+
+    .txt-prem{
+        display: none;
+    }
+
+    .cat-desc{
+        display: none;
+    }
+
+    .body-titulos{
+        font-size: 16px;
+        color:blue;
+    }
+
+    .rodape{
+        background-color: rgb(160, 242, 160);
+        
+    }
+
+
 }

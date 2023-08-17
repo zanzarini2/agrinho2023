@@ -2,9 +2,18 @@
     width: 10%;
 }
 
+.cabecalho{
+    background-image: linear-gradient(#05ad1b, #c1f3bf);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 
-@media screen and (max-width: 1024px){
-    .Banner-cabecalho-a{
+}
+
+
+@media screen and (max-width: 1024px){    
+    .Banner-cabecalho-t{
         display: none;
     }
 
