@@ -8,16 +8,16 @@
         display: none;
     }
 
-    .introducao{
+    .imagem-banner{
         display: none;
     }
 
     .tema{
-        font-size: 16px;
+        font-weight: 400;
     }
 
     .imagem-premiacao{
-        width: 5%;
+        display: none;
     }
 
 
