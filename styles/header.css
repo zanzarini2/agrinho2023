@@ -1,7 +1,3 @@
-.Banner-cabecalho{
-    width: 10%;
-}
-
 .cabecalho{
     background-image: linear-gradient(#05ad1b, #c1f3bf);
     display: flex;
@@ -15,6 +11,11 @@
 @media screen and (max-width: 1024px){    
     .Banner-cabecalho-t{
         display: none;
+    }
+
+    .Banner-cabecalho-a{
+        width: 50%;
+        height: 50%;
     }
 
     .imagem-banner{
